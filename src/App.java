@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args){
-        CreatePhoneNumber cnb = new CreatePhoneNumber();
+        FindOutlier cnb = new FindOutlier();
         cnb.test();
 
     }
