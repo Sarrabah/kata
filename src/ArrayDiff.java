@@ -64,7 +64,7 @@ public class ArrayDiff {
 }
 }   
 
-/*autre facon
+/*autre façon
  ArrayList<Integer> arrFinale = new ArrayList<Integer> ();
     HashSet<Integer> resultSet = new HashSet<Integer> ();
     HashMap <Integer, Integer> aHash = new HashMap<Integer, Integer> ();
