@@ -1,6 +1,7 @@
 public class App {
     public static void main(String[] args){
-        Tictactoechecker tt = new  Tictactoechecker ();
-        tt.test();
+        FindWordsByCharacters fw = new FindWordsByCharacters();
+        String[] words = new String[] {"cat","bt","hat","tree"};
+        System.out.println(fw.countCharacters(words, "atach"));
     }
 }
