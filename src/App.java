@@ -1,7 +1,8 @@
 public class App {
     public static void main(String[] args){
-        FindWordsByCharacters fw = new FindWordsByCharacters();
-        String[] words = new String[] {"cat","bt","hat","tree"};
-        System.out.println(fw.countCharacters(words, "atach"));
+       BinarySearch bs = new BinarySearch();
+        boolean result = bs.elementSearch(17);
+        System.out.println("the element exist : " +result);
+
     }
 }
